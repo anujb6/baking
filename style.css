@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.upperpart{
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 3%;
+}
+.image img{
+    position: absolute;
+    width:60%;
+    left: 12%;
+    
+}
+.text h1{
+    font-family: 'Playfair Display', serif;
+    padding: 1% 1% 0 9%;
+    font-size: 50px;
+}
+.text p{
+    font-family: 'Montserrat', sans-serif;
+    padding: 2% 40% 2.5% 10%;
+    text-align: left;
+    font-weight: bold;
+}
+.text p input{
+   margin-right: 5px;
+}
+/*-----------------------------------------*/
+/*-------------LowerPart----------------------*/
+.lowerpart{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 30%;
+    padding: 0 5% 5% 5%;
+    margin-left: 7%;
+}
+.lowerpart h1{
+    font-family: 'Playfair Display', serif;
+    padding: 0 2% 2% 0;
+}
+.lowerpart h3{
+   font-family: 'Montserrat', sans-serif;
+   padding: 2% 2% 2% 0;
+}
+.lowerpart h2{
+    font-family: 'Playfair Display', serif;
+    padding: 2% 2% 3% 1.5%;
+}
+.lowerpart input{
+    margin-right: 1%;
+}
+.smallerOne{
+    text-align: center;
+    
+}
+.shadow{
+    box-shadow: 1px 1px 10px 1px rgb(172, 166, 166);
+    padding: 8% 0 4% 5%;
+    width: 30%;
+    text-align: center;
+    margin: 6% 0 0 9%;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    
+    line-height: 200%;
+    padding-bottom: 2%;
+}
+i{
+    color: orangered;
+    padding: 0 1% 0 1%;
+}
+.shadow p{
+    font-size: 10px;
+    padding: 6% 0 6% 0;
+    margin-right: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.shadow i{
+  font-size: 18px;
+}
+#utensil{
+    margin-right: 21px;
+}
+.shadow span{
+    font-size: 13px;
+    margin-left: 4%;
+    font-family: 'Playfair Display', serif;
+}
